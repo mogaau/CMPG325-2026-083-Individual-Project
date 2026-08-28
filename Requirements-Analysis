@@ -1,1 +1,75 @@
+2.Requirements Analysis
+Assumed Departments and User Requirements
+•	 Reception and Client Intake (Responsible for receiving clients and handling initial enquiries and appointments).
+Network requirements:
+ 	Computers for the employees to register clients and communicate.
+ 	Connection to internal resources.
+ 	Connections to proper shared resources.
+ 	Connectivity to communicate with other departments.
+•	Legal Practitioners (This is expected to be the largest operational division because legal practitioners need access to case information, documents, and network resources on a consistent basis).
+ Network requirements:
+ 	Computers for staff.
+ 	Access to documents and case information.
+ 	Access to internal network services.
+ 	Communication capabilities with other authorized divisions
+•	 Administration and Finance (Responsible for administrative and financial activities.)
+Network requirements:
+ 	Computers for staff.
+ 	Access to administration services.
+ 	Access to common services.
+ 	Effective communications with authorized departments.
+•	 Management (Requires access to organizational resources and communication with the relevant departments.)
+Network requirements:
+ 	Management computers. 
+ 	Access to organizational and shared resources. 
+ 	Communication with other authorized departments. 
+•	 Services for Servers and Network
+Network requirements:
+ 	DHCP service.
+ 	DNS service.
+ 	Web or internal service depending on the Packet Tracer exercise.
+ 	Ability to support servers and network infrastructure devices
+•	 Additional Floor/Area(Needed for Change Request CR2.)
+Network requirements:
+ 	Devices for users.
+ 	Network connectivity.
+ 	Access to appropriate resources of organization.
+ 	Connectivity to other authorized network segments.
+
+Applications
+•	 Internal Communication
+Employees need communication among related departments. This means the network should provide proper connection among different authorized network segments.
+•	 Email and Web Communication
+Users might need network access for purposes of email and web communication.
+•	Shared Organizational Documents and Cases
+The lawyers and employees might require access to organizational documents and information about related cases.
+•	  Administrative and Finance Applications
+The administrative and finance employees will need access to the internal network resources.
+•	Management Access
+The management needs access to organizational information and network resources.
+Network Services
+Service	Purpose	Justification
+DHCP	Allocates IP addresses automatically to the client	Saves manual configuration and administrative effort, since the company has only one part-time IT staff member. IP address assignment saves manual configuration effort.
+DNS	Maps hostnames to IP addresses	Enables easy access to network services
+Web Service	Creates an artificial web-based internal resource	Permits the simulation of a network service on Packet Tracer
+Routing	Facilitates communication across different networks/VLANs	Needed since the design incorporates several subnets
+Default Gateway Services	Access from each VLAN to other networks	Needed for inter-network communication
+Security Requirements
+As the company belongs to the legal services business, the network should be structured in a logical way and shouldn’t put all users and devices in one big broadcast domain.
+The following security and management requirements are proposed:
+•	VLAN Segmentation(Different functional areas will be separated into VLANs.)
+ 	Logical segregation of departments.
+ 	Improved organization of traffic on the network.
+ 	Reduced broadcast domains.
+ 	A more organized network infrastructure.
+•	 Separate Server Network
+ 	The servers and network services would be allocated to a separate VLAN/subnet. It would make the addressing scheme and network structure simpler.
+•	Controlled Inter-VLAN Communication
+ 	There must be routing between VLANs in order for the right devices to talk to each other. Communication between different segments of the network can then be regulated via routing and security measures.
+•	Future Growth and Scalability(The client takes over an additional floor/area of the building and needs coverage there.)
+ 	One more access switch or the needed switching equipment for the new floor/area.
+ 	A separate VLAN for the extra floor/area.
+ 	A separate VLSM subnet.
+ 	Routing capability to access relevant organisational resources.
+ 	Sufficient address space from the allocated 10.35.0.0/16 address block
 
