@@ -38,6 +38,8 @@ This test confirms that the additional floor required by CR2 is successfully int
 - Packet loss: 0%
 This test confirms communication between the Admin/Finance VLAN and the server VLAN.
 **Evidence:** 'inter-vlan-admin-server.png'
+
+  
   ---
 
 ## 2. Web Server Test
@@ -48,7 +50,9 @@ The Web Server was tested using its IP address.
 - Result: Successful
 The Packet Tracer web page was successfully displayed, confirming that the HTTP service is operational and reachable through the network.
 **Evidence:** 'Web-server-IP-test.png'
-  ---
+ 
+ 
+ ---
 
 ## 3. DNS Resolution Test
 
@@ -59,6 +63,8 @@ The DNS server successfully resolved the hostname to the Web Server IP address.
 - Web Server: `10.35.0.211`
 - Result: Successful
 **Evidence:** `DNS-NSLookup-Test.png`
+
+
 ---
 ## 4. Web Access Using DNS
 
@@ -66,6 +72,8 @@ The website was accessed using the configured DNS hostname: `http://www.thusoleg
 The website loaded successfully.
 This confirms that DNS resolution and HTTP connectivity are functioning together.
 **Evidence:** `Website-DNS-Test.png`
+
+
 ---
 
 ## 5. Overall Testing Result
