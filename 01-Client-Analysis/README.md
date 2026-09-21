@@ -1,12 +1,18 @@
 1.CLIENT REQUIRMENTS 
+
 •	Thuso Legal Aid Centre is found in the legal services sector. In this particular case, since Thuso Legal Aid Centre needs to be connected within the context of this networking assignment, there must be an effective computer network system that will be used for day-to-day activities. As a legal services organization, the center is expected to have different groups of users performing different functions.
+
 •	Thuso Legal Aid Centre needs a better network design that guarantees connectivity within its working areas. This network will be designed and modeled using Cisco Packet Tracer software with respect to the given IP address space: 10.35.0.0/16.
+
 •	The network configuration to be implemented will divide the organization into various network segments logically, depending on the organizational departments. 
 This will make the network more organized, manageable, and trouble free. The network will also have connectivity to an additional floor/area as per the requirements of Change Request CR2. 
+
 Identified Network Challenges
+
 •	 Necessity for an organized IP Addressing scheme
 The organization has been allocated the following block of addresses:10.35.0.0/16.  An appropriate scheme has to be formulated from this allocation. In particular, the project calls for the creation of IPv4 Subnetting with a VLSM Addressing scheme. As various departments within the organization would have varying needs for hosts, allocation of subnets of the same size to all the departments would not make the best use of resources.
 Therefore, a variable Length Subnet Masking (VLSM) scheme should be employed.
+
 •	 IT Support Constraints
 There is only one part-time IT support staff.
 This implies that the network design should not be overly complex. Thus, the following aspects need to be considered:
@@ -17,6 +23,7 @@ This implies that the network design should not be overly complex. Thus, the fol
  	Network management centralization whenever possible.
  	Troubleshooting-friendly network design.
 The more organized the network design is, the less time will be needed for identifying and solving network issues, especially with limited IT support capabilities.
+
 •	 Need for a reliable means of communication
 The network, once completed, will have to facilitate communication for the appropriate equipment and personnel.
 This would entail:
@@ -25,6 +32,8 @@ This would entail:
  	Access to common network services.
  	Communication between the current operations areas and the new area/floor.
 Successful connectivity would later be tested and demonstrated in Cisco Packet Tracer.
+
+
 •	  Requirement for expansion
 There is the following client change request related to this project- CR2: The client acquires another floor/area in the building and requires coverage of it.
 It means that the network should be able not only to work with the existing organization but also to cope with this expansion.
@@ -34,6 +43,7 @@ This requirement can be solved by the proposed design, which will provide:
  	Separate logical network/VLAN.
  	Properly-sized VLSM subnet, depending on the assumed host requirement.
  	Connection from the new floor/area to the main network.
+
 Project Goals 
 •	Provide proper connectivity between the proper network devices and end users.
 •	Make use of the given IPv4 address block 10.35.0.0/16 as the foundation of the addressing scheme.
