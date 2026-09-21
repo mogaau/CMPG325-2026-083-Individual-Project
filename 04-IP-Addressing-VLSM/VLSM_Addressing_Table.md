@@ -36,7 +36,7 @@ The subnets are allocated from the largest host requirement to the smallest requ
 | 40 | MANAGEMENT | 10 | 10.35.0.192 | /28 | 255.255.255.240 | 10.35.0.193 – 10.35.0.206 | 10.35.0.207 | 10.35.0.193 |
 | 50 | SERVERS | 10 | 10.35.0.208 | /28 | 255.255.255.240 | 10.35.0.209 – 10.35.0.222 | 10.35.0.223 | 10.35.0.209 |
 
-The VLSM allocations correspond to the addressing plan in the project documentation. :contentReference[oaicite:2]{index=2}
+The VLSM allocations correspond to the addressing plan in the project documentation.
 
 ---
 
@@ -87,7 +87,7 @@ The first usable address of each subnet is assigned to the router and used as th
 | SW3 | 40 | 10.35.0.196 | 255.255.255.240 | 10.35.0.193 | Static |
 | SW4 | 40 | 10.35.0.197 | 255.255.255.240 | 10.35.0.193 | Static |
 
-The original device plan specifies VLAN 40 for switch management and assigns the switches addresses `.194` through `.197`. :contentReference[oaicite:4]{index=4}
+The original device plan specifies VLAN 40 for switch management and assigns the switches addresses `.194` through `.197`.
 
 ---
 
@@ -98,7 +98,7 @@ The original device plan specifies VLAN 40 for switch management and assigns the
 | DHCP/DNS Server | 50 | 10.35.0.210 | 255.255.255.240 | 10.35.0.209 | Static |
 | Web Server | 50 | 10.35.0.211 | 255.255.255.240 | 10.35.0.209 | Static |
 
-The project specifies static addressing for the DHCP/DNS and Web servers so that network services remain reliably reachable. :contentReference[oaicite:5]{index=5}
+The project specifies static addressing for the DHCP/DNS and Web servers so that network services remain reliably reachable.
 
 ---
 
@@ -114,7 +114,7 @@ End-user PCs receive their IPv4 configuration through DHCP.
 | Management | 40 | 10.35.0.192/28 | 10.35.0.193 | DHCP |
 | Additional Floor | 60 | 10.35.0.64/26 | 10.35.0.65 | DHCP |
 
-The project specifies DHCP for end-user devices to reduce manual addressing work and administrative effort. :contentReference[oaicite:6]{index=6}
+The project specifies DHCP for end-user devices to reduce manual addressing work and administrative effort.
 
 ---
 
@@ -128,7 +128,7 @@ The Additional Floor requires up to 40 hosts and also receives a `/26` subnet.
 
 Administration and Finance and Reception receive `/27` subnets, while Management and Servers receive `/28` subnets.
 
-This approach conserves the allocated `10.35.0.0/16` address space and leaves substantial address space available for future expansion. :contentReference[oaicite:7]{index=7}
+This approach conserves the allocated `10.35.0.0/16` address space and leaves substantial address space available for future expansion.
 
 ---
 
