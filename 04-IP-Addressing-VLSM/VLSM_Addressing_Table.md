@@ -66,7 +66,7 @@ The main router, R1, provides inter-VLAN routing using router-on-a-stick.
 | G0/0/0.50 | 50 | 10.35.0.209 | 255.255.255.240 |
 | G0/0/0.60 | 60 | 10.35.0.65 | 255.255.255.192 |
 
-The first usable address of each subnet is assigned to the router and used as the default gateway for devices in that VLAN. :contentReference[oaicite:3]{index=3}
+The first usable address of each subnet is assigned to the router and used as the default gateway for devices in that VLAN.
 
 ---
 
