@@ -45,6 +45,7 @@ This requirement can be solved by the proposed design, which will provide:
  	Connection from the new floor/area to the main network.
 
 Project Goals 
+
 •	Provide proper connectivity between the proper network devices and end users.
 •	Make use of the given IPv4 address block 10.35.0.0/16 as the foundation of the addressing scheme.
 •	Make use of VLSM to subnetting the IP addresses based on different host needs.
